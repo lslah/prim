@@ -1,11 +1,30 @@
-body { 
-  font: 14px helvetica neue, helvetica, arial, sans-serif;
+body {
+  font: 25px helvetica neue, helvetica, arial, sans-serif;
+  padding: 10px;
 }
 
 #cy {
-  height: 100%;
+  margin-top: 50px;
+  height: 70%;
   width: 100%;
   position: absolute;
   left: 0;
-  top: 0;
+}
+
+#description {
+    width: 80%;
+}
+
+#errorMsg {
+    margin-top: 20px;
+    position: absolute;
+    color: #C60000;
+    font-weight: bold;
+}
+
+#successMsg {
+    margin-top: 20px;
+    position: absolute;
+    color: #00CC00;
+    font-weight: bold;
 }
