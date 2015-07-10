@@ -18,8 +18,8 @@ var cy = cytoscape({
       })
     .selector('.highlighted')
       .css({
-        'background-color': '#086788',
-        'line-color': '#086788',
+        'background-color': '#06AED5',
+        'line-color': '#06AED5',
         'transition-property': 'background-color, line-color',
         'transition-duration': '0.5s'
       })
