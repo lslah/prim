@@ -3,28 +3,45 @@ body {
   padding: 10px;
 }
 
-#cy {
-  margin-top: 50px;
-  height: 70%;
-  width: 100%;
+#wrapper {
+  height: 90%;
+  width: 85%;
   position: absolute;
-  left: 0;
+}
+
+#center {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#info_box {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+#cy {
+  position: relative;
+  height: calc(100% - 200px);
+  width: 100%;
 }
 
 #description {
-    width: 80%;
+  width: 100%;
 }
 
 #errorMsg {
-    margin-top: 20px;
-    position: absolute;
-    color: #C60000;
-    font-weight: bold;
+  margin-top: 15px;
+  position: absolute;
+  color: #C60000;
+  font-weight: bold;
 }
 
 #successMsg {
-    margin-top: 20px;
-    position: absolute;
-    color: #00CC00;
-    font-weight: bold;
+  margin-top: 15px;
+  position: absolute;
+  color: #00CC00;
+  font-weight: bold;
 }
+
