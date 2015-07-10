@@ -22,13 +22,13 @@ h1 {
 
 #info_box {
   position: relative;
-  height: 200px;
+  height: 220px;
   width: 100%;
 }
 
 #cy {
   position: relative;
-  height: calc(100% - 200px);
+  height: calc(100% - 220px);
   width: 100%;
 }
 
