@@ -151,7 +151,7 @@ cy.on('tap', 'edge', function (evt) {
     successMsg("Awesome! You've found a minimum spanning tree!");
     cy.unbind('tap', 'edge');
   } else {
-    successMsg('Great choice!');
+    successMsg('Great choice! Which comes next?');
   }
 
 });
