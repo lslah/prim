@@ -18,15 +18,15 @@ var cy = cytoscape({
       })
     .selector('.highlighted')
       .css({
-        'background-color': '#00CC00',
-        'line-color': '#00CC00',
+        'background-color': '#086788',
+        'line-color': '#086788',
         'transition-property': 'background-color, line-color',
         'transition-duration': '0.5s'
       })
     .selector('.error')
       .css({
-        'background-color': '#C60000',
-        'line-color': '#C60000',
+        'background-color': '#DD1C1A',
+        'line-color': '#DD1C1A',
         'transition-property': 'background-color, line-color',
         'transition-duration': '0.5s'
       }),

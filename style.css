@@ -34,14 +34,17 @@ body {
 #errorMsg {
   margin-top: 15px;
   position: absolute;
-  color: #C60000;
+  color: #DD1C1A;
   font-weight: bold;
 }
 
 #successMsg {
   margin-top: 15px;
   position: absolute;
-  color: #00CC00;
+  color: #086788;
   font-weight: bold;
 }
 
+.tt {
+  color: #06AED5;
+}
