@@ -121,7 +121,7 @@ cy.on('tap', 'edge', function (evt) {
 
   if (!edgeNodes.anySame(connectedNodes)) {
     edge.addClass('error');
-    errorMsg('This edge is not connected to the green graph!');
+    errorMsg('This edge is not connected to the selected subgraph!');
     return;
   }
 
